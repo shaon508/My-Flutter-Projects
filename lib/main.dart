@@ -115,7 +115,7 @@ class BmiCalculator extends State<HomeActivity> {
                             var msg = "";
                             Color newColor;
                             if (bmi < 18.5) {
-                              msg = "You're Underweight!";
+                              msg = "Underweight!";
                               newColor = Colors.amber.shade50;
                             } else if (bmi < 25) {
                               msg = "Normal!";
